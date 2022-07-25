@@ -1,4 +1,68 @@
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Roboto Slab', serif;
+}
 body {
-  background: rgb(69, 206, 87);
+  width: 100%;
+  background: linear-gradient(90deg, #00f1fd 0%, #dd0e94 100%) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.container{
+  background-color: #b7dc23;
+  border-radius: 10px;
+  box-shadow: 2px 5px rgba(0,0,0, 0.5)
+}
+
+.topo{
+  background-color: rgb(180, 164, 164);
+  padding: 15px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.form{
+  padding: 140px
+}
+
+.dados{
+  margin-bottom: 15px;
+  padding-bottom: 1px;
+}
+
+.secoes{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.junior{
+  padding: 50px;
+  box-shadow: 2px 5px rgba(0,0,0, 0.5)
+}
+
+.master{
+  padding: 50px;
+  box-shadow: 2px 5px rgba(0,0,0, 0.5);
+}
+
+.senior{
+  padding: 50px;
+  box-shadow: 2px 5px rgba(0,0,0, 0.5);
+}
+
+.ulJunior{
+  color: #006400;
+
+}
+
+.ulMaster{
+  color: #00008b;
+}
+
+.ulSenior{
+  color: #993399;
+}
