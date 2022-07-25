@@ -11,57 +11,80 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="/pasta/css/all.css" />
 
     <title>Torneio</title>
   </head>
   <body>
     <div class="container">
-
       <div class="inserir">
-
         <div class="topo">
           <h2>Torneio de computação</h2>
         </div>
 
         <div id="form" class="form">
-
           <div class="dados">
-            <label for="nome">Nome:</label>
-            <input type="text" placeholder="Digite seu nome..." class="nome" />
+            <div>
+              <label for="nome" class="nome">Nome:</label>
+            </div>
+
+            <input
+              type="text"
+              placeholder="Digite seu nome..."
+              class="inputNome"
+            />
+            <div class="aviso">
+              <i class="fa-solid fa-diamond-exclamation"></i>Apenas letras
+            </div>
           </div>
 
           <div class="dados">
-            <label for="idade">Idade:</label>
-            <input type="text" placeholder="Digite sua idade..." class="idade" />
+            <div>
+              <label for="idade" class="idade">Idade:</label>
+            </div>
+
+            <input
+              type="text"
+              placeholder="Digite sua idade..."
+              class="inputIdade"
+            />
+
+            <div class="aviso">apenas numeros</div>
           </div>
 
-          <button class="botao" value="botao" id="botao">
-            adicionar
-          </button>
+          <div>
+            <input
+              class="concordo"
+              type="checkbox"
+              id="concordo"
+              name="thradio"
+            />
+            <label for="concordo" class="concordoL"
+              >Li e estou de acordo com o Termo de Uso e Politica de
+              Privacidade</label
+            >
+          </div>
 
+          <button class="botao" value="botao" id="botao">enviar</button>
         </div>
-
       </div>
 
       <div class="secoes">
-
         <div class="junior">
           Júnior:
-          <ul class="listJunior" id="listJunior"></ul> 
-        </div> 
+          <ul class="listJunior" id="listJunior"></ul>
+        </div>
 
         <div class="master">
           Master:
-          <ul class="listMaster" id="listMaster"></ul> 
+          <ul class="listMaster" id="listMaster"></ul>
         </div>
 
         <div class="senior">
           Senior:
-          <ul class="listSenior" id="listSenior"></ul> 
+          <ul class="listSenior" id="listSenior"></ul>
         </div>
-
       </div>
-
     </div>
 
     <script src="./torneio.js" defer></script>

@@ -5,8 +5,8 @@ form.addEventListener("submit", (e) => {
 var bot = document.querySelector(".botao");
 
 bot.addEventListener("click", () => {
-  const nome = document.querySelector(".nome");
-  const idade = document.querySelector(".idade");
+  const nome = document.querySelector(".inputNome");
+  const idade = document.querySelector(".inputIdade");
 
   const junior = document.querySelector(".listJunior");
   const master = document.querySelector(".listMaster");
