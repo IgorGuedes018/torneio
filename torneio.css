@@ -54,15 +54,15 @@ body {
   box-shadow: 2px 5px rgba(0,0,0, 0.5);
 }
 
-.ulJunior{
+.listJunior{
   color: #006400;
 
 }
 
-.ulMaster{
+.listMaster{
   color: #00008b;
 }
 
-.ulSenior{
+.listSenior{
   color: #993399;
 }

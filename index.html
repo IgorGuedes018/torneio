@@ -16,48 +16,54 @@
   </head>
   <body>
     <div class="container">
+
       <div class="inserir">
+
         <div class="topo">
           <h2>Torneio de computação</h2>
         </div>
 
-        <form id="form" class="form">
+        <div id="form" class="form">
+
           <div class="dados">
             <label for="nome">Nome:</label>
-            <input type="text" placeholder="Digite seu nome..." id="nome" />
+            <input type="text" placeholder="Digite seu nome..." class="nome" />
           </div>
 
           <div class="dados">
             <label for="idade">Idade:</label>
-            <input type="text" placeholder="Digite sua idade..." id="idade" />
+            <input type="text" placeholder="Digite sua idade..." class="idade" />
           </div>
 
-          <button
-            type="submit"
-            class="adicionar"
-            onclick="Adicionar();"
-            value="adicionar"
-          >
+          <button class="botao" value="botao" id="botao">
             adicionar
           </button>
-        </form>
+
+        </div>
+
       </div>
 
       <div class="secoes">
+
         <div class="junior">
           Júnior:
-          <ul class="ulJunior">a</ul>
-        </div>
+          <ul class="listJunior" id="listJunior"></ul> 
+        </div> 
+
         <div class="master">
           Master:
-          <ul class="ulMaster">b</ul>
+          <ul class="listMaster" id="listMaster"></ul> 
         </div>
+
         <div class="senior">
           Senior:
-          <ul class="ulSenior">c</ul>
+          <ul class="listSenior" id="listSenior"></ul> 
         </div>
+
       </div>
+
     </div>
+
     <script src="./torneio.js" defer></script>
   </body>
 </html>
