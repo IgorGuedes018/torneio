@@ -1,2 +1,3 @@
-separador de pessoas em um torneio
-pages = https://igorguedes018.github.io/torneio/
+-separador de participantes em um torneio;
+
+-pages: https://igorguedes018.github.io/torneio/
